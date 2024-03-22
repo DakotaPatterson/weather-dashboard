@@ -12,13 +12,13 @@ N/A
 
 ## Usage
 
-The best way to use this is to enter a city name and then click the [Search Button](assets/searchButton.png).
+The best way to use this is to enter a city name and then click the [Search Button](Assets/searchButton.png).
 
 Once this is complete the current weather and the 5 day forecast will be displayed on the screen.
 
-If you would like to search the same city again you would just need to click the [City Name](assets/cityName.png) and the information would be displayed again.
+If you would like to search the same city again you would just need to click the [City Name](Assets/cityName.png) and the information would be displayed again.
 
-![](assets/screenshot.png)
+![](Assets/screenshot.png)
 
 https://dakotapatterson.github.io/weather-dashboard/
 
