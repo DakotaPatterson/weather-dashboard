@@ -1,3 +1,4 @@
+/*This is used to format the header elements with a gradient and to be cenetered*/
 header{
     background: linear-gradient(to right, rgb(66, 64, 216), rgb(32, 7, 100));
     background-color: rgb(46, 43, 230);
@@ -8,12 +9,14 @@ header{
     align-items: center;
 }
 
+/*This is to format the h1 elements to be color blue and be cenetred*/
 h1{
     color: azure;
     text-align: center;
 }
 
-textarea {
+/*This formats the input element to have a border and have a set size and color and also to be transparent*/
+input {
     background: transparent;
     border: 2px solid black;
     border-radius: 7px;
@@ -25,6 +28,7 @@ textarea {
     height: 50px;
   }
 
+/*This formats all buttons to have the same color and size plus a border*/
 button{
     color: white;
     background-color: rgb(93, 168, 230);
@@ -36,4 +40,47 @@ button{
     font-size: 24px;
     cursor: pointer;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*This formats all li elements to have the same color and size plus a border and to also be displayed without any list style*/
+li{
+    color:  black;
+    background-color: gray;
+    border: none;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* This formats the card class to have the same color and size*/
+.card{
+    background-color: rgb(30, 30, 43);
+    color: white;
+    display: flex;
+    width: fit-content;
+    height: 100%;
+}
+
+/*This sets a margin for the cardContainer class*/
+.cardContainer{
+    margin: 1em;
+}
+
+/*This is used to hide and display the header in the JavaScript*/
+.hiddenElement{
+    display: none;
+}
+
+/*This formats the ID SearchContainer to have set padding*/
+#SearchContainer{
+    padding-top: 1rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-bottom: unset !important;
 }
